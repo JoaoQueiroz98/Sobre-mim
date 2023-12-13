@@ -1,0 +1,111 @@
+body{
+    font-size:15px;
+    font-family:georgia;
+    color:black;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=1380&t=st=1702345702~exp=1702346302~hmac=d7a1206bb536e3c9440e9c0032b93782f0741ef5442e296b43541cec0aee173f");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+	color:black;			
+	text-align:center;
+	padding:10px;   
+    width:100%;
+    font-family: verdana;
+
+
+}
+header img{
+    border-radius: 50%;
+}
+
+#home h1{
+    font-size: 65px;
+    text-align: center;
+}
+
+.sociais{
+    width: 15%;
+    text-align: center;
+    background:linear-gradient(to bottom,  whitesmoke,  rgb(117, 116, 116));
+}
+
+
+
+
+.sociais a{
+    color: black;
+    font-size: 20px;
+
+}
+
+.sociais a:hover{
+    color:aliceblue;
+}
+
+.foto{
+    width: 20%;
+    font-family: Georgia;
+}
+
+.foto img{
+    padding: 10px;
+    border-radius:70%;
+    width:80%;
+}
+
+.container{
+    display: flex;
+}
+
+.main{
+    margin-left:0 auto;
+    color: black;
+    padding:25px;
+    flex: 1;
+    font-size:18px;
+    text-indent: 42px;
+}
+.main h1{
+    font-size: 45px;
+}
+main img{
+    width: 30%;
+    border-radius: 10%;
+    margin: center;
+}
+
+.main li{
+
+    padding:1px;
+	margin:0;
+	display:flex;
+    font-size: 30px;
+    font-family:helvetica;
+    font-weight: bold;
+    color: black;
+    width: 35%;
+}
+
+
+
+footer{
+    background:linear-gradient(to top, rgb(130, 128, 128), whitesmoke);
+    color: black;
+    height: 70px;
+}
+
+footer a{
+    color:black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: aliceblue;
+
+}
+
+
